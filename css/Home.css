@@ -1,0 +1,178 @@
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+    padding-top: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    background: url("../images/header-bg.png") ;
+    height: 80px;
+    margin-top: 10px;
+    position: fixed;
+}
+#nav {
+    width: 410px;
+    margin-top: 20px;
+    float:right;
+}
+
+#nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#nav li{
+    margin-top: auto;
+    float: left;
+    padding-left: 21px;
+}
+
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none;}
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1; }
+
+.typewriter p{
+    color: #fff;
+    font-family: monospace;
+    font-size:x-large;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+            typing 3.5s steps(30, end);
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+.content {
+    font-size: 1.875rem;
+    color: #262626;
+    background-size: 49% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.mid {
+    padding: 20%;
+    background-position: 100% 50%;
+}
+.illustration_01 {
+    background-color: #00c17b;
+}
+.illustration_02 {
+    /*background-color: #e8697b;*/
+    background-image: url("https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg");
+    background-clip: border-box;
+    background-size: cover;
+}
+
+.illustration_03 {
+    /*background-color: #14b29a;*/
+    background-image: url("https://static.pexels.com/photos/34950/pexels-photo.jpg");
+    background-clip: border-box;
+    background-size: cover;
+
+}
+.illustration_04 {
+    background-color: #80b9f1;
+}
+.illustration_05 {
+    background-color: #464a4e;
+}
+
+.subscribe{
+    margin-top: 0px;
+    margin-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color: #ecf0f1;
+    border-color: black;
+    border-radius: 5px;
+    color: #333333;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lobster', cursive;
+}
+.subscribe{
+    padding: 2px 16px;
+}
+
+.subscribe input[type=email]{
+    width: 100%;
+    padding: 12px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    font-family: SansSerif;
+}
+
+.subscribe button{
+    width: 100%;
+    background-color: grey;
+    color: black;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+}
+
+@media (max-width: 106.25rem) {
+    .wrapper {
+        font-size: 1.6875rem;
+    }
+}
+@media (max-width: 93.75rem) {
+    .content{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 81.25rem) {
+    .content,
+    .separator {
+        font-size: 1.3125rem;
+    }
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-size: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: black;
+    display: inline;
+}
+
