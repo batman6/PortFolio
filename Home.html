@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/Home.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
 </head>
 <body>
 <!-------HEADER----->
@@ -16,21 +17,40 @@
     <div class="content">
         <nav id="nav">
             <ul>
-                <li class="active"><a href="#slide1" class="nav_1" title="Home" style="font-family: 'Lobster', cursive">Home</a>
+                <li class="active"><a href="#slide1" class="scrollTo" style="font-family: 'Lobster', cursive">Home</a>&nbsp;
                 </li>
-                <li><a href="#slide2" class="nav_2" title="About Me" style="font-family: 'Lobster', cursive">About
-                    Me</a></li>
-                <li><a href="#slide3" class="nav_3" title="Skills" style="font-family: 'Lobster', cursive">Skills</a>
+                <li><a href="#slide2" class="scrollTo" style="font-family: 'Lobster', cursive">About Me</a>&nbsp;
                 </li>
-                <li><a href="#slide4" class="nav_4" title="Projects"
-                       style="font-family: 'Lobster', cursive">Projects</a></li>
-                <li><a href="#slide5" class="nav_5" title="Contact" style="font-family: 'Lobster', cursive">Contact</a>
+                <li><a href="#slide3" class="scrollTo" style="font-family: 'Lobster', cursive">Skills</a>&nbsp;
                 </li>
-                <li class="scrollTop"><a href="#"><span class="entypo-up-open"></span></a></li>
+                <li><a href="#slide4" class="scrollTo" style="font-family: 'Lobster', cursive">Projects</a>&nbsp;
+                </li>
+                <li><a href="#slide5" class="scrollTo" style="font-family: 'Lobster', cursive">Contact</a>&nbsp;
+                </li>
             </ul>
         </nav>
     </div>
 </header>
+
+<style type="text/css">
+    /* Hide AddToAny vertical share bar when screen is less than 980 pixels wide */
+    @media screen and (max-width: 980px) {
+        .a2a_floating_style.a2a_vertical_style {
+            display: none;
+        }
+    }
+</style>
+
+<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:20px; top:250px;">
+    <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_google_plus"></a>
+    <a class="a2a_button_pinterest"></a>
+    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+</div>
+
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+
 <wrapper>
     <div id="slide1" class="content mid illustration_01">
         <div class="typewriter">
@@ -50,13 +70,14 @@
                 current;y pursuing my Bachelor in Technology in the field of Information Technology in <a
                         href="http://www.srmuniv.ac.in/" target="_blank">SRM University.</a>
             </p>
+            <br />
+            <a href="myself.html" class="transparent_btn">MORE</a>
         </div>
     </div>
 
 
     <div id="slide3" class="content mid illustration_03">
         <h1 style="font-size:55px;text-align: center;font-family: 'Lobster', cursive;">Skills.</h1>
-        <p>Something........</p>
     </div>
 
     <div id="slide4" class="content mid illustration_04">
@@ -66,7 +87,10 @@
 
 
     <div id="slide5" class="content mid illustration_05">
-        <h1 style="font-size:55px;text-align: center;font-family: 'Lobster', cursive;">Contact Me.</h1>
+        <h4 class="heading4" style="text-align: center"><q>If you need me, just look up in the night sky for the
+            signal.</q></h4>
+        <h5 class="heading5" style="text-align: center">OR</h5>
+        <h1 class="heading1" style="font-size:55px;text-align: center;font-family: 'Lobster', cursive;">Contact Me.</h1>
         <div class="row">
             <div class="column" style="border-right-style: solid;border-color: white ">
                 <form class="subscribe" action="php/Subscribe.php" method="post" onsubmit="event.preventDefault();">
@@ -123,7 +147,31 @@
     </div>
 </wrapper>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+
 <script src="js/Home.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    function scrollTo(id) {
+        if ($(id).length) {
+            var getOffset = $(id).offset().top;
+            var targetDistance = 0;
+            $('html,body').animate({
+                scrollTop: getOffset - targetDistance
+            }, 500);
+        }
+    }
+
+    $('.scrollTo').click(function () {
+        var getElem = $(this).attr('href');
+        var targetDistance = 0;
+        if ($(getElem).length) {
+            var getOffset = $(getElem).offset().top;
+            $('html,body').animate({
+                scrollTop: getOffset - targetDistance
+            }, 500);
+        }
+        return false;
+    });
+</script>
 </body>
 </html>
