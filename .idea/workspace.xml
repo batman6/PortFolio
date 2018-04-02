@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="484576b7-49cc-47e1-a018-a88e8618e978" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/myself.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/skills_animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/skills_animate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/myself.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myself.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myself.html" beforeDir="false" afterPath="$PROJECT_DIR$/myself.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,11 +21,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Home.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="292">
-                  <caret line="74" column="66" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="66" />
+                <state relative-caret-position="636">
+                  <caret line="211" column="7" lean-forward="true" selection-start-line="211" selection-start-column="7" selection-end-line="211" selection-end-column="7" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,8 +69,8 @@
           <file leaf-file-name="Home.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/Home.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="517">
-                  <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+                <state relative-caret-position="591">
+                  <caret line="213" column="1" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -85,11 +84,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="myself.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="myself.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myself.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="31" column="115" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
+                <state relative-caret-position="517">
+                  <caret line="47" selection-start-line="46" selection-end-line="47" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -111,8 +110,8 @@
           <file leaf-file-name="myself.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/myself.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+                <state relative-caret-position="606">
+                  <caret line="53" column="1" lean-forward="true" selection-start-line="45" selection-end-line="53" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -154,11 +153,11 @@
         <option value="$PROJECT_DIR$/css/Skills.css" />
         <option value="$PROJECT_DIR$/js/skills_animate..js" />
         <option value="$PROJECT_DIR$/js/scroll.js" />
-        <option value="$PROJECT_DIR$/css/Home.css" />
         <option value="$PROJECT_DIR$/js/skills_animate.js" />
-        <option value="$PROJECT_DIR$/Home.html" />
         <option value="$PROJECT_DIR$/myself.html" />
         <option value="$PROJECT_DIR$/css/myself.css" />
+        <option value="$PROJECT_DIR$/Home.html" />
+        <option value="$PROJECT_DIR$/css/Home.css" />
       </list>
     </option>
   </component>
@@ -170,9 +169,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="170" />
-    <option name="width" value="978" />
-    <option name="height" value="1040" />
+    <option name="x" value="378" />
+    <option name="y" value="105" />
+    <option name="width" value="1280" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -217,7 +217,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/travel" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -273,15 +273,15 @@
       <workItem from="1522196711925" duration="4862000" />
       <workItem from="1522331373129" duration="2753000" />
       <workItem from="1522346377010" duration="780000" />
-      <workItem from="1522502419567" duration="12837000" />
+      <workItem from="1522502419567" duration="16539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79344000" />
+    <option name="totallyTimeSpent" value="83046000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1440846" />
@@ -786,10 +786,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myself.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="47" selection-start-line="46" selection-end-line="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myself.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="213" column="1" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="74" column="66" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="66" />
+        <state relative-caret-position="636">
+          <caret line="211" column="7" lean-forward="true" selection-start-line="211" selection-start-column="7" selection-end-line="211" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -826,30 +848,6 @@
             <element signature="n#style#0;n#h1#0;n#div#4;n#wrapper#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#wrapper#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myself.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="115" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/myself.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
         </state>
       </provider>
     </entry>
