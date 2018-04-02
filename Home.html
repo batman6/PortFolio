@@ -205,40 +205,8 @@
 
 
 <script src="js/Home.js" type="text/javascript"></script>
-<script type="text/javascript">
-
-    function scrollTo(id) {
-        if ($(id).length) {
-            var getOffset = $(id).offset().top;
-            var targetDistance = 0;
-            $('html,body').animate({
-                scrollTop: getOffset - targetDistance
-            }, 500);
-        }
-    }
-
-    $('.scrollTo').click(function () {
-        var getElem = $(this).attr('href');
-        var targetDistance = 0;
-        if ($(getElem).length) {
-            var getOffset = $(getElem).offset().top;
-            $('html,body').animate({
-                scrollTop: getOffset - targetDistance
-            }, 500);
-        }
-        return false;
-    });
-</script>
-<script>
-
-    jQuery(document).ready(function(){
-        jQuery('.skillbar').each(function(){
-            jQuery(this).find('.skillbar-bar').animate({
-                width:jQuery(this).attr('data-percent')
-            },6000);
-        });
-    });
-</script>
+<script src="js/scroll.js" type="text/javascript"></script>
+<script src="js/skills_animate.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/jquery.scrollfire.js"></script>
 </body>
 </html>
