@@ -73,15 +73,13 @@ body {
     background-color: #00c17b;
 }
 .illustration_02 {
-    /*background-color: #e8697b;*/
-    background-image: url("https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg");
+    background-color: #e8697b;
     background-clip: border-box;
     background-size: cover;
 }
 
 .illustration_03 {
-    /*background-color: #14b29a;*/
-    background-image: url("https://static.pexels.com/photos/34950/pexels-photo.jpg");
+    background-color: #14b29a;
     background-clip: border-box;
     background-size: cover;
     font-family: monospace;
@@ -91,7 +89,7 @@ body {
     background-color: #80b9f1;
 }
 .illustration_05 {
-    background-color: #464a4e;
+    background-color: #c0392b;
 }
 
 .heading4{
